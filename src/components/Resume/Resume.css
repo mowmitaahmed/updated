@@ -1,0 +1,110 @@
+.resume_area{
+  font-family: 'Bitter', serif;
+}
+.resume_area h2, .work_experience_area h2, .courses_area h2{
+  font-family: 'Bitter', serif;
+  font-weight: 700;
+}
+.work_experience_header h6, .courses_header h6, .education_details h6{
+  font-weight: 600;
+}
+.work_experience_details h4, .courses_details h4, .education_details h4{
+  font-weight: 600;
+  color: #00B050;
+}
+.work_experience_details h6{
+  font-weight: 500;
+  color: #555;
+}
+.work_experience_details p{
+  font-weight: 400;
+}
+.work_experience_header, .courses_header, .education_header{
+  background: #00B050;
+}
+.border-color{
+    border-color: rgba(0, 176, 80, 0.4)!important;
+}
+.single-skill i{
+    font-size: 32px;
+}
+.single-skill p{
+    font-size: 16px;
+    color: #00B050;
+}
+
+.circle {
+    padding: 13px 20px;
+    border-radius: 50%;
+    background-color: #00B050;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+  }
+  
+  .how-it-works.row .col-2 {
+    align-self: stretch;
+  }
+  .how-it-works.row .col-2::after {
+    content: "";
+    position: absolute;
+    border-left: 3px solid #00B050;
+    z-index: 1;
+  }
+  .how-it-works.row .col-2.bottom::after {
+    height: 50%;
+    left: 50%;
+    top: 50%;
+  }
+  .how-it-works.row .col-2.full::after {
+    height: 100%;
+    left: calc(50% - 3px);
+  }
+  .how-it-works.row .col-2.top::after {
+    height: 50%;
+    left: 50%;
+    top: 0;
+  }
+  
+  
+  .timeline div {
+    padding: 0;
+    height: 40px;
+  }
+  .timeline hr {
+    border-top: 3px solid #00B050;
+    margin: 0;
+    top: 17px;
+    position: relative;
+  }
+  .timeline .col-2 {
+    display: flex;
+    overflow: hidden;
+  }
+  .timeline .corner {
+    border: 3px solid #00B050;
+    width: 100%;
+    position: relative;
+    border-radius: 15px;
+  }
+  .timeline .top-right {
+    left: 50%;
+    top: -50%;
+  }
+  .timeline .left-bottom {
+    left: -50%;
+    top: calc(50% - 3px);
+  }
+  .timeline .top-left {
+    left: -50%;
+    top: -50%;
+  }
+  .timeline .right-bottom {
+    left: 50%;
+    top: calc(50% - 3px);
+  }
+  
+  .courses_details img{
+      width: 30px;
+  }
+

@@ -1,0 +1,99 @@
+.about_me_area{
+  font-family: 'Bitter', serif;
+}
+  .btn-2::before, .btn-2::after{
+    content:"";
+    width: 0;
+    height: 2px;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #00B050;
+  }
+  
+  .about_me::before, .about_me::after{
+    content:"";
+    width:2px;
+    height:0;
+    position: absolute;
+    transition: all 0.2s linear;
+    background: #00B050;
+  }
+  .btn-2:hover::before, .btn-2:hover::after{
+    width: 100%;
+  }
+  .btn-2:hover .about_me::before, .btn-2:hover .about_me::after{
+    height: 100%;
+  }
+  /*--- Button 2 -------*/
+  
+  
+  .btn-2::before, .btn-2::after{
+    transition-delay: 0s;
+  }
+  .btn-2 .about_me::before, .btn-2 .about_me::after{
+    transition-delay: 0.2s;
+  }
+  .btn-2::before{
+    right: 0;
+    top: 0;
+  }
+  .btn-2::after{
+    left: 0;
+    bottom: 0;
+  }
+  .btn-2 .about_me::before{
+    left: 0;
+    top: 0;
+  }
+  .btn-2 .about_me::after{
+    right: 0;
+    bottom: 0;
+  }
+  .btn-2:hover::before, .btn-2:hover::after{
+    transition-delay: 0.2s;
+  }
+  .btn-2:hover .about_me::before, .btn-2:hover .about_me::after{
+    transition-delay: 0s;
+  }
+  
+  /* CSS */
+  .about_me p{
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+  }
+  .about_me h2{
+    font-weight: 700;
+    background: linear-gradient(-45deg, #00B050, #7FFF00, #32CD32, #228B22);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+  
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.about_me h4{
+  font-weight: 600;
+  color: #00B050;
+  background-image: -webkit-linear-gradient(92deg, #00B050, #228B22);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: hue 60s infinite linear;
+}
+@keyframes hue {
+  from {
+    filter: hue-rotate(0deg);
+  }
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}
