@@ -326,7 +326,7 @@ const Resume = () => {
                     <div className="row mb-4">
                       <div className="education_area col-md-10 bg-white shadow-lg rounded w-100 mt-5 mx-3 pt-4 px-4 pb-5">
                           <h2 className="text-center mb-4">Educational Qualification</h2>
-                          <div className="education aos-animate" data-aos="fade-up">
+                          <div className="education">
                             <div className="education_header text-white rounded py-3 pl-3">
                               <h6 className="h6-responsive m-0"><i className="fa fa-calendar mr-2" aria-hidden="true"></i>January, 2013 - December, 2017</h6>
                             </div>

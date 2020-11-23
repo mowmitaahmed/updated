@@ -12,10 +12,17 @@
   font-weight: 600;
   color: #00B050;
 }
+.portfolio_details span{
+  font-size: 18px;
+}
 .portfolio_details h5{
   font-family: 'Bitter', serif;    
   font-weight: 500;
   color: #555;
+}
+.portfolio_details ul{
+  margin: 0;
+  /* padding: 0; */
 }
 /* Skill Button */
 .portfolio_skill_button button{
